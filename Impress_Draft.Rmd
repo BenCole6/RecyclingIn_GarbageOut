@@ -20,13 +20,38 @@ output:
 ## Increasing Recycling, Reducing Waste
 
 - Use image recognition on every public litter bin to recognise recycling
-- 
+- Increase number of recycling litter bins around CBD
+
+![](Litter bins map.png){width=85%}
+
 
 ## How it Works
 
+- Two cameras, images and infrared
+- Image recognition for detecting object type - eg coffee cup, plastic bottle, etc
+    - machine learning image recognition
+- Infrared for detecting food spoilage
+    - methane emissions
+
 ## Gamifying Recycling
 
+- Two LED light units on every bin, with matching colours to bin signage
+- Audible tone played
+- Hold item in front of bin for a second to allow image recognition
+- Bin lights up and plays a tone to match recycling type
+    - accessible to both hearing or vision impaired persons
+
 ## Take it Home
+
+- App for your phone
+- Scan item with phone's camera
+- Screen changes colours and plays a tone to match whether the item is recyclable
+- "I need your help" for items it can't recognise
+    - add images to data bank for image recognition, the model grows
+
+### Show and Tell
+
+- Also can be used in schools to teach good recycling habits
 
 ## Waste to Landfill Reduction
 
