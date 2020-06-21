@@ -1,0 +1,33 @@
+---
+title: "Impress Draft"
+author: ""
+date: ""
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+# Recycling In, Garbage Out
+
+## The Idea
+
+- 416 recycling litter bins in Melbourne
+- 2897 other litter bins
+- Recycling bins strategically placed
+- What if every public litter bin could accept recycling?
+
+## Increasing Recycling, Reducing Waste
+
+- Use image recognition on every public litter bin to recognise recycling
+- 
+
+## How it Works
+
+## Gamifying Recycling
+
+## Take it Home
+
+## Waste to Landfill Reduction
+
+## Next Steps
