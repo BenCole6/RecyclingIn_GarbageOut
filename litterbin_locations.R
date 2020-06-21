@@ -5,6 +5,7 @@ p_load(tidyverse,
        readxl,
        ggplot2,
        ggmap,
+       grid,
        gridExtra)
 
 Furniture_Melb <- read_csv("../Melb_public_furniture.csv")
@@ -79,7 +80,11 @@ gg_recycling_bins <- ggmap(Melbourne) +
 
 litter_bins_grid <- grid.arrange(gg_all_bins, gg_recycling_bins,
                                  nrow = 1,
-                                 top = "Litter Bin Locations, Melbourne City Council\n")
+                                 top = "Litter Bin Locations, Melbourne City Council\n",
+                                 bottom = textGrob(label = "data: https://data.melbourne.vic.gov.au/City-Council/Street-furniture-including-bollards-bicycle-rails-/8fgn-5q6t   ",
+                                                   just = "right",
+                                                   x = 1,
+                                                   gp = gpar(fontsize = 9)))
 
 ggsave("Litter bins map.png",
        litter_bins_grid,
@@ -87,3 +92,4 @@ ggsave("Litter bins map.png",
        height = 225,
        units = "mm",
        dpi = 400)
+
